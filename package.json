@@ -1,0 +1,43 @@
+{
+  "name": "neo-english",
+  "version": "0.0.1",
+  "description": "A Universal Auxiliary Language of Maximum Simplicity, constructed by taking the best features of Esperanto, Spanish, Chinese, and English.",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "phonological",
+    "orthography",
+    "neo-english",
+    "javascript",
+    "dictionary",
+    "esperanto",
+    "phonology",
+    "phonetic",
+    "phonemic",
+    "alphabet",
+    "language",
+    "writing",
+    "phoneme",
+    "conlang",
+    "syllable",
+    "chinese",
+    "spanish",
+    "english",
+    "html5",
+    "cmu"
+  ],
+  "author": {
+    "name": "Armotus"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armotus/neo-english.git"
+  },
+  "bugs": {
+    "url": "https://github.com/armotus/neo-english/issues"
+  },
+  "homepage": "https://github.com/armotus/neo-english#readme"
+}
