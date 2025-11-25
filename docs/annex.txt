@@ -1,0 +1,52 @@
+
++ Received Pronunciation ( RP )
+
+- Non-Rhotic ( Pronunciation )
+
+- Non-R-Coloured ( Pronunciation ɚ ɝ )
+
+- Stress-Timed Rhythm ( Non-Syllable-Timed )
+
+- English Stress : 0 , 1 , 2 ( Spanish Stress : 0 , 1 )
+
+- Linking R ( Hiatus )
+
+- Intrusive R ( Hiatus )
+
+- Ambisyllabicity
+
+- Yod-Dropping
+
+- Yod-Coalescence
+
+- CCCVCCCC
+
+- str.e.ngth
+
+- onset.nucleus.coda
+
++ General American ( GA )
+
+- Rhotic ( Pronunciation )
+
+- R-Coloured ( Pronunciation ɚ ɝ )
+
+- Stress-Timed Rhythm ( Non-Syllable-Timed )
+
+- English Stress : 0 , 1 , 2 ( Spanish Stress : 0 , 1 )
+
+- Glide Insertion W ( Hiatus )
+
+- Glide Insertion Y ( Hiatus )
+
+- Ambisyllabicity
+
+- Yod-Dropping
+
+- Yod-Coalescence
+
+- CCCVCCCC
+
+- str.e.ngth
+
+- onset.nucleus.coda

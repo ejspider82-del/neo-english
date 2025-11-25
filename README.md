@@ -17,6 +17,14 @@ This project follows a **design strategy based on radical simplification**, wher
 
 ---
 
+## Screenshots ([Demo](https://armotus.github.io/neo-english))
+
+![light-theme](docs/light.png)
+
+![dark-theme](docs/dark.png)
+
+---
+
 ## I. The Neo-English Alphabet (NEPA)
 
 The **NEPA** is the Neo-English Orthography and Pronunciation System. It has been designed (unlike English) to establish a **direct phonological correspondence** between **writing (orthography)** and **sound (pronunciation)**.
@@ -64,7 +72,7 @@ NE adopts the **maximum** syllable structure of English (GA/RP) to maintain the 
 | :--- | :--- | :--- |
 | **Maximum Structure** | **CCCVCCCC** (Maximum 3 Onset, Maximum 4 Coda). | **Lexical Fidelity:** Allows transcription of complex words like *glimpsed* or *scrambled*. |
 | **Onset Rule** | Onset clusters (**CC** and **CCC**) are **restricted to the 60 valid sequences** of English (e.g.: 'str', 'skr', etc. [See List II.2]). | **Pronounceability:** Ensures that clusters are natural for an English speaker. |
-| **Syllabification** | Unique and mandatory **Maximum Onset Principle (M.O.P.)**. | **Grammatical Simplicity:** Eliminates ambiguity (ambisyllabicity), making syllable division unique and deterministic. |
+| **Syllabification** | **Similar Pronunciation Objective (S.P.O.)**. Unique and mandatory. | **Lexical Fidelity:** The syllable division is established word-by-word in the Master Dictionary to achieve **maximum phonetic similarity** to the original English using only the separator (** . **). **Grammatical Simplicity:** Eliminates ambiguity (ambisyllabicity), making syllable division unique and deterministic. |
 
 ### 2. Valid Onsets (IPA):
 
@@ -96,8 +104,8 @@ The fundamental principle of NE is **invariability**. Words do not inflect, whic
 
 * **Verbs (Zero Conjugation):** Verbs are **invariable**; they do not change for tense, person, or number. Tense, aspect, and **mood** are indicated **EXCLUSIVELY** by **adverbs and adverbial phrases** (e.g.: *today, tomorrow, maybe, last year*). If the context does not specify the tense, the **present** or habitual action is assumed.
 * **Nouns (No Flexional Plurals):** Nouns are **invariable** (they have no gender, number, or case). Plurality is marked, **only when necessary** for clarity, by a **quantifier** preceding the noun.
-    * **Explicit Plurality:** Lexical quantifiers from English are used (e.g.: *thrii, menii* [three, many]).
-    * **General Indefinite Plurality:** A double-form generic quantifier is used: **plus** (before vowels and other consonants) or **plun** (before words starting with S, Z, SH, or ZH). This quantifier must be placed **always at the beginning of the noun phrase**, preceding the noun or any adjective that modifies it.
+    * **Explicit Plurality:** Lexical quantifiers from English are used (e.g.: *thrii, menii, ets.* [three, many, etc.]).
+    * **General Indefinite Plurality:** A double-form generic quantifier is used: **plas** [normalized 'plus'] (before vowels and other consonants) or **moor** [normalized 'more'] (before words starting with S, Z, SH, or ZH). This quantifier must be placed **always at the beginning of the noun phrase**, preceding the noun or any adjective that modifies it.
 * **Lexical Ambiguity:** The same lexical root (e.g.: **ran** or **kar** [run or car]) can function as various grammatical classes (noun / verb / adjective). This ambiguity is resolved **exclusively by the strict position in the Syntax**.
 
 ### 2. Syntactic Structure (Strict SVO Order)
@@ -109,8 +117,8 @@ Analytical morphology mandates that word order be **strict and mandatory**, with
 | **Default Order** | **Subject-Verb-Object (SVO)**. This order is **strict and mandatory** in transitive sentences. | Defines grammatical functions (Subject, Verb, Object). |
 | **Adjective Position** | The modifying adjective must **always precede** the noun it modifies (e.g.: *big haus* [big house]). | Eliminates Adjective / Noun ambiguity. |
 | **Adverb Position** | The adverb must **precede the element** it modifies (e.g.: *kwiklii ran* [quickly run]) or be placed **at the beginning** / **end of the sentence** to modify the main verb. | Ensures clarity of the modifier's scope. |
-| **Negation Rule** | Negation is marked **EXCLUSIVELY** by the particle **no** placed **before the verb** (e.g.: *Ai no ran* [I not run/I do not run, etc.]). | Maintains Zero Inflection and Strict Syntax. |
-| **Interrogation Rule** | Yes/No questions **MUST** start with the auxiliary particle **duu** (normalized 'do'), followed by SVO order (e.g.: *Duu yuu sii?* [Do you see?]). | Distinguishes questions from declarative sentences using strict position. |
+| **Negation Rule** | Negation is marked **EXCLUSIVELY** by the particle **nou** [normalized 'no'] placed **before the verb** (e.g.: *Ai nou ran* [I not run/I do not run, etc.]). | Maintains Zero Inflection and Strict Syntax. |
+| **Interrogation Rule** | Yes/No questions **MUST** start with the auxiliary particle **duu** [normalized 'do'], followed by SVO order (e.g.: *Duu yuu sii plas doog?* [Do you see dogs?]). | Distinguishes questions from declarative sentences using strict position. |
 
 ---
 
@@ -126,7 +134,7 @@ The process uses the phonological transcription of **American English (GA)** (us
 | :--- | :--- | :--- | :--- |
 | **1. Consonants** | The phonological transcription of the 24 consonants of GA is mapped directly to the 24 consonants of NE (Section I). | NE Consonants. | Ensures maximum familiarity in consonants and **Zero Inflection**. |
 | **2. Simple Vowels / Diphthongs** | The phonemes of short vowels /&#652;, &#603;, &#618;, &#594;, &#650;, &#230;/, long vowels /&#105;&#720;, &#596;&#720;, &#117;&#720;/ and diphthongs /a&#618;, e&#618;, o&#618;, a&#650;, o&#650;/ of GA are mapped directly to the short vowels (a, e, i, o, u, a), long vowels (ii, oo, uu) and diphthongs (ai, ei, oi, au, ou) of NE. | NE Vowels / Diphthongs. | Establishes the **vowel simplicity** of Spanish. |
-| **3. Rhotics** | The rhotic phonemes /&#602;, &#605;&#720;/ of GA are mapped to **&#601;** (Schwa) and long vowel **ee** followed by the **simple r** of NE. | **&#601;r, eer** | Confirms the **rhotic** nature of NE and simplifies pronunciation. |
+| **3. Rhotics** and **R-Coloured** | The rhotic phonemes /&#602;, &#605;&#720;/ of GA are mapped to **&#601;** (Schwa) and long vowel **ee** followed by the **simple r** of NE. | **&#601;r, eer** | Confirms the **rhotic** nature of NE and simplifies pronunciation and without **R-Coloured**. |
 | **4. Long Vowel Correction /&#593;&#720;/** | The long vowel phoneme /&#593;&#720;/ of GA is mapped to the vowel **o** of NE if, and only if, the **orthographic** vowel in the original word is an **o** (e.g.: h**o**t to **hot**). Otherwise, it is mapped to the long vowel **aa** of NE (Table IV.2). | **o, aa** | **RP Exception Rule:** Recovers the short vowel distinction **o** /&#594;/ of British English using the spelling. |
 | **5. Schwa Correction /&#601;/** | The Schwa phoneme /&#601;/ is disambiguated and mapped to one of the 5 vowels of NE (a, e, i, o, u) using the **orthographic assimilation table** (Table IV.2). | **a, e, i, o, u** | Eliminates the ambiguity of the Schwa, maintaining **visual familiarity** with the original word and its best pronunciation by replacing it with one of the Spanish vowels. |
 
@@ -159,14 +167,14 @@ The following examples illustrate the application of the 5-step algorithm (inclu
 | :--- | :--- | :--- | :--- |
 | **green** | /&#105;&#720;/ (Long Vowel) | **griin** | Consonants (1), Long Vowels (2). |
 | **stop** | /&#593;&#720;/ (RP Correction) | **stop** | /&#593;&#720;/ Correction (4). |
-| **never** | /&#601;/ (Schwa) | **né.ver** | /&#601;/ Correction (5), M.O.P. (Section II). |
+| **never** | /&#601;/ (Schwa) | **né.ver** | /&#601;/ Correction (5), S.P.O. (Section II). |
 | **think** | /&#952;/ (Voiceless TH) | **thingk** | Consonants (1): /&#952;/ : **th**. |
 | **that** | /&#240;/ (Voiced TH) | **dhat** | Consonants (1): /&#240;/ : **dh**. |
 | **house** | /a&#650;/ (Diphthong) | **haus** | Base Diphthongs (2). |
 | **bird** | /&#605;&#720;/ (Rhotic) | **beerd** | Rhotics (3)). |
 | **water** | /&#601;/ (Final Schwa) | **wóo.ter** | /&#601;/ Correction (5). |
 | **walk** | /&#596;&#720;/ (Long Vowel) | **wook** | Long Vowels (2). |
-| **letter** | /&#602;/ (Rhotic) | **lé.ter** | Rhotics (3), M.O.P. (Section II). |
+| **letter** | /&#602;/ (Rhotic) | **lé.ter** | Rhotics (3), S.P.O. (Section II). |
 | **measure** | /&#658;/ (ZH Phoneme) | **mé.zhar** | Consonants (1), /&#601;/ Correction (5). |
 | **judge** | /&#100;&#865;&#658;/ (J Phoneme) | **jaj** | Consonants (1). |
 
@@ -175,7 +183,7 @@ The following examples illustrate the application of the 5-step algorithm (inclu
 The sentences demonstrate Zero Inflection (Section III) and Strict Syntax (SVO).
 
 * **Invariable Nouns (Plurality):**
-    > **"Ai sii plus doog."** (I see **dogs** [indefinite plural]).
+    > **"Ai sii plas doog."** (I see **dogs** [indefinite plural]).
 * **Invariable Verbs (Tenses):**
     > **"Ai ran kwiklii nau."** (I run quickly **now**).
     > **"Ai ran kwiklii yesterdei"** (I ran quickly **yesterday**).
@@ -195,7 +203,7 @@ The dictionary must provide all necessary information to use any word without am
 | Component | Mandatory Registration Rule | Rigor Justification |
 | :--- | :--- | :--- |
 | **NEPA Root** | The normalized form of the root must be registered in simple NEPA notation (e.g.: *faadher*). | **Lexical Fidelity:** The final normalized form after the Matrix Algorithm (Section IV). |
-| **Syllable Division** | Syllable division must always be marked with a dot (`.`) (e.g.: *fáa.dher*, *né.ver*). | **Determinism:** The Maximum Onset Principle (Section II) must be visible to eliminate ambiguities. |
+| **Syllable Division** | Syllable division must always be marked with a dot (** . **) (e.g.: *fáa.dher*, *né.ver*). | **Lexical Fidelity and Determinism:** The **Similar Pronunciation Objective (S.P.O.)** must be visible to ensure maximum **phonological** similarity and eliminate ambiguities. |
 | **Primary Stress** | The main stress must always be marked, **except for monosyllables** (e.g.: *fáa.dher*, *né.ver*). | **Reference Rigor:** Fixes the position of the stress **only on polysyllabic roots** to eliminate ambiguity. |
 | **Grammatical Class** | The primary grammatical class of the root (Noun, Verb, Adjective) must be registered. | **Ambiguity Resolution:** Aids syntactic disambiguation (Section III). |
 
@@ -268,7 +276,7 @@ These phenomena demonstrate NE's tolerance for variations in vowel length, glide
 | Phenomenon | Phonological Phenomenon | Implication for Writing |
 | :--- | :--- | :--- |
 | **Fixed Stress** | Substitution of floating stress with fixed stress (e.g.: penultimate syllable). | **Does not affect writing.** The Dictionary (Section VI) is the source of stress. |
-| **Ambisyllabicity** | The consonant is shared simultaneously by the coda of the preceding syllable and the onset of the following syllable (breaking the M.O.P.). | **Does not affect writing.** NE's syllable division (M.O.P.) is **Unique and mandatory** in the dictionary. |
+| **Ambisyllabicity** | The consonant is shared simultaneously by the coda of the preceding syllable and the onset of the following syllable (breaking the S.P.O.). | **Does not affect writing.** NE's syllable division (S.P.O.) is **Unique and mandatory** in the dictionary. |
 
 ### 4. Syllabic Variation and Prothesis
 
@@ -306,7 +314,7 @@ The creation of NE is structured in three mandatory technical phases:
     * **Rule Coding:** Creation of a *software* or *script* (e.g.: Python) that automates the 5-Step Algorithm and the /&#593;&#720;/ and /&#601;/ corrections from the **Table IV.2**.
     * **Rigorous Registration:** Each entry must register its Primary Grammatical Class, Syllable Division, and **Mandatory Stress** (**in the Master Dictionary** [Section VI]).
 * **Phase II: Development of Adoption Tools.**
-    * **Conversion Engine:** Development of an application that allows immediate bidirectional conversion (English $\leftrightarrow$ Neo-English) to facilitate initial learning.
+    * **Conversion Engine:** Development of an application that allows immediate bidirectional conversion (English &#8644; Neo-English) to facilitate initial learning.
     * **Base Didactic Material:** Creation of tutorials focused on **Strict SVO Syntax** and **Analytical Morphology**.
 * **Phase III: Expansion and Standardization.**
     * **Lexical Expansion by Normalization:** Rigorous application of the Normalization rules (Section IV) to **more English words** to expand the lexicon beyond the 3,000-word base.
@@ -332,7 +340,7 @@ NE is positioned as a superior **Universal Auxiliary Language** thanks to its hy
 
 &#8226; URL : Phonemic Orthography (&nbsp;<a href="https://en.wikipedia.org/wiki/Phonemic_orthography">Link</a>&nbsp;)
 
-&#8226; URL : Cambridge Dictionary (&nbsp;<a href="https://dictionary.cambridge.org/us/dictionary/english/american">Link</a>&nbsp;)
+&#8226; URL : Cambridge Dictionary (&nbsp;<a href="https://dictionary.cambridge.org/dictionary/english/english">Link</a>&nbsp;)
 
 &#8226; URL : Alphabetic Principle (&nbsp;<a href="https://en.wikipedia.org/wiki/Alphabetic_principle">Link</a>&nbsp;)
 
@@ -342,10 +350,44 @@ NE is positioned as a superior **Universal Auxiliary Language** thanks to its hy
 
 &#8226; Ezequiel Pablo Saudino, Thesis (&nbsp;<a href="https://bibliotecadigital.exactas.uba.ar/collection/seminario/document/seminario_nCOM000721_Saudino">Link</a>&nbsp;)
 
+## INSTALLATION
+
+```bash
+npm i neo-english
+```
+
+## USAGE
+
+```js
+let text = 'The father and son go to the park to see plus bird tomorrow';
+let transcriber = require('neo-english');
+let NEPAphonemetext = transcriber.Transcribe(text,1,1,0,0,0);
+let ZEPAphonemetext = transcriber.Transcribe(text,2,1,0,0,0);
+let TEPAphonemetext = transcriber.Transcribe(text,3,1,0,0,1);
+
+console.log(NEPAphonemetext);
+console.log(ZEPAphonemetext);
+console.log(TEPAphonemetext);
+
+// dhe  faa.dher  and  san  gou  tuu  dhe  paark  tuu  sii  plas  beerd  to.moo.rou
+// dhe  fā.dher  and  san  gou  tū  dhe  pārk  tū  sī  plas  bērd  to.mō.rou
+// de  fā.der  and  san  gou  tū  de  pārk  tū  sī  plas  bērd  to.mō.rou
+```
+
+## TEST
+
+```bash
+npm test
+```
+
+## DEMO
+
+[HOME](https://armotus.github.io/neo-english)
+
 ## LICENSE
 
-[MIT LICENSE](LICENSE)
+[ABC](abc/abc.md)
 
-## NOTE
+## VERSION
 
-Version 0.0.1
+0.0.2

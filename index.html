@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Armotus">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="fav/favicon.svg">
+	<title>Neo-English</title>
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="main">
+	<div id="top"></div>
+	<h1 style="cursor:pointer" id="Title" onclick="myTheme();">NEO-ENGLISH</h1>
+	<p>A Universal Auxiliary Language of Maximum Simplicity.</p>
+	<div class="inblo"><input type="checkbox" id="myNEPA" onclick="myfunNEPA();" checked><span>NEO</span>&nbsp;</div> <div class="inblo"><input type="checkbox" id="myZEPA" onclick="myfunZEPA();"><span>ZEN</span>&nbsp;</div> <div class="inblo"><input type="checkbox" id="myTEPA" onclick="myfunTEPA();"><span>TAO</span>&nbsp;</div> ||&nbsp; <div class="inblo"><input type="checkbox" id="mySyll" onclick="myFunction();" checked><span style="display:inline">syllable</span>&nbsp;</div> <div class="inblo"><input type="checkbox" id="myStr3" onclick="myFunction();"><span style="display:inline">a:á</span>&nbsp;</div> <div class="inblo"><input type="checkbox" id="myFusi" onclick="myFunction();"><span style="display:inline">az {&nbsp;az&nbsp;}</span>&nbsp;</div><div id="myTaoE" style="display:none"> ||&nbsp; <div class="inblo"><input type="checkbox" id="myTaoa" onclick="myFunTaoA();"><span style="display:inline">aa:&#257;</span>&nbsp;</div> <div class="inblo"><input type="checkbox" id="myTaob" onclick="myFunTaoB();"><span style="display:inline">aa:a</span>&nbsp;</div> <div class="inblo"><input type="checkbox" id="myTaoc" onclick="myFunTaoC();"><span style="display:inline">:&nbsp;.</span>&nbsp;</div> </div>
+	<p></p>
+	<form><textarea id="myInput" rows="12" cols="90" spellcheck="false" placeholder="Enter some text here and click the 'Run' button" onmouseup="mySize();"></textarea></form>
+	<br>
+	<button onclick="myChange();">Run</button><span class="spanBreak1">&nbsp;</span><button onclick="myClear();">Clear</button><span class="spanBreak2">&nbsp;</span><button onclick="myAaTex();">AZ:az</button>
+	<br><br>
+	<form><textarea id="myResult" rows="12" cols="90" spellcheck="false" placeholder="Display in dark or light mode : click on the 'Title'" onmouseup="mySize();"></textarea></form>
+	<br>
+	<button onclick="mySave();">Save</button><span class="spanBreak1">&nbsp;</span><button id="myCopy" onclick="myCopy();">Copy</button><span class="spanBreak2">&nbsp;</span><button onclick="myModeT();">Areas</button>
+	<br class="dobleBr">
+	<p><a id="phonemes"></a></p>
+	<h2 style="cursor:pointer" onclick="myPho();">PHONEMES</h2>
+	<div id="neo" class="phop" style="display:block">
+	<p>&#8226; Neo-English Phonetic Alphabet (&nbsp;<a href="https://github.com/armotus/neo-english">NEPA</a>&nbsp;)</p>
+	<p>|&nbsp; a&nbsp;, e&nbsp;, i&nbsp;, o&nbsp;, u&nbsp;&nbsp;|&nbsp; aa&nbsp;, ee&nbsp;, ii&nbsp;, oo&nbsp;, uu&nbsp;&nbsp;|&nbsp; ai&nbsp;, ei&nbsp;, oi&nbsp;, au&nbsp;, ou&nbsp;&nbsp;|&nbsp; Stress&nbsp;: á&nbsp;, áa&nbsp;, ái&nbsp;&nbsp;|</p>
+	<p>|&nbsp; b&nbsp;, d&nbsp;, f&nbsp;, g&nbsp;, h&nbsp;, j&nbsp;, k&nbsp;, l&nbsp;, m&nbsp;, n&nbsp;, p&nbsp;, r&nbsp;, s&nbsp;, t&nbsp;, v&nbsp;, w&nbsp;, y&nbsp;, z&nbsp;&nbsp;|&nbsp; ch&nbsp;, dh&nbsp;, ng&nbsp;, sh&nbsp;, th&nbsp;, zh&nbsp;&nbsp;|</p>
+	<p>&#8226; International Phonetic Alphabet (&nbsp;<a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet">IPA</a>&nbsp;)</p>
+	<p>|&nbsp; a&nbsp;, e&nbsp;, i&nbsp;, o&nbsp;, u&nbsp;&nbsp;|&nbsp; a&#720;&nbsp;, e&#720;&nbsp;, i&#720;&nbsp;, o&#720;&nbsp;, u&#720;&nbsp;&nbsp;|&nbsp; ai&nbsp;, ei&nbsp;, oi&nbsp;, au&nbsp;, ou&nbsp;&nbsp;|&nbsp; Stress&nbsp;: &#712;&nbsp;, &#712;&nbsp;, &#712;&nbsp;&nbsp;|</p>
+	<p>|&nbsp; b&nbsp;, d&nbsp;, f&nbsp;, g&nbsp;, h&nbsp;, &#100;&#865;&#658;&nbsp;, k&nbsp;, l&nbsp;, m&nbsp;, n&nbsp;, p&nbsp;, r&nbsp;, s&nbsp;, t&nbsp;, v&nbsp;, w&nbsp;, j&nbsp;, z&nbsp;&nbsp;|&nbsp; &#116;&#865;&#643;&nbsp;, &#240;&nbsp;, &#331;&nbsp;, &#643;&nbsp;, &#952;&nbsp;, &#658;&nbsp;&nbsp;|</p>
+	</div>
+	<div id="zen" class="phop" style="display:none">
+	<p>&#8226; Zen-English Phonetic Alphabet (&nbsp;<a href="https://github.com/armotus/neo-english">ZEPA</a>&nbsp;)</p>
+	<p>|&nbsp; a&nbsp;, e&nbsp;, i&nbsp;, o&nbsp;, u&nbsp;&nbsp;|&nbsp; &#257;&nbsp;, &#275;&nbsp;, &#299;&nbsp;, &#333;&nbsp;, &#363;&nbsp;&nbsp;|&nbsp; ai&nbsp;, ei&nbsp;, oi&nbsp;, au&nbsp;, ou&nbsp;&nbsp;|&nbsp; Stress&nbsp;: á&nbsp;, &#226;&nbsp;, ái&nbsp;&nbsp;|</p>
+	<p>|&nbsp; b&nbsp;, d&nbsp;, f&nbsp;, g&nbsp;, h&nbsp;, j&nbsp;, k&nbsp;, l&nbsp;, m&nbsp;, n&nbsp;, p&nbsp;, r&nbsp;, s&nbsp;, t&nbsp;, v&nbsp;, w&nbsp;, y&nbsp;, z&nbsp;&nbsp;|&nbsp; ch&nbsp;, dh&nbsp;, &#331;&nbsp;, sh&nbsp;, th&nbsp;, &#351;&nbsp;&nbsp;|</p>
+	<p>&#8226; International Phonetic Alphabet (&nbsp;<a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet">IPA</a>&nbsp;)</p>
+	<p>|&nbsp; a&nbsp;, e&nbsp;, i&nbsp;, o&nbsp;, u&nbsp;&nbsp;|&nbsp; a&#720;&nbsp;, e&#720;&nbsp;, i&#720;&nbsp;, o&#720;&nbsp;, u&#720;&nbsp;&nbsp;|&nbsp; ai&nbsp;, ei&nbsp;, oi&nbsp;, au&nbsp;, ou&nbsp;&nbsp;|&nbsp; Stress&nbsp;: &#712;&nbsp;, &#712;&nbsp;, &#712;&nbsp;&nbsp;|</p>
+	<p>|&nbsp; b&nbsp;, d&nbsp;, f&nbsp;, g&nbsp;, h&nbsp;, &#100;&#865;&#658;&nbsp;, k&nbsp;, l&nbsp;, m&nbsp;, n&nbsp;, p&nbsp;, r&nbsp;, s&nbsp;, t&nbsp;, v&nbsp;, w&nbsp;, j&nbsp;, z&nbsp;&nbsp;|&nbsp; &#116;&#865;&#643;&nbsp;, &#240;&nbsp;, &#331;&nbsp;, &#643;&nbsp;, &#952;&nbsp;, &#658;&nbsp;&nbsp;|</p>
+	</div>
+	<div id="tao" class="phop" style="display:none">
+	<p>&#8226; Tao-English Phonetic Alphabet (&nbsp;<a href="https://github.com/armotus/neo-english">TEPA</a>&nbsp;)</p>
+	<p>|&nbsp; a&nbsp;, e&nbsp;, i&nbsp;, o&nbsp;, u&nbsp;&nbsp;|&nbsp; <span id="myTao1" style="display:inline">aa&nbsp;, ee&nbsp;, ii&nbsp;, oo&nbsp;, uu&nbsp;&nbsp;|&nbsp; </span><span id="myTao2" style="display:none">&#257;&nbsp;, &#275;&nbsp;, &#299;&nbsp;, &#333;&nbsp;, &#363;&nbsp;&nbsp;|&nbsp; </span>ai&nbsp;, ei&nbsp;, oi&nbsp;, au&nbsp;, ou&nbsp;&nbsp;|&nbsp; Stress&nbsp;: á&nbsp;, <span id="myTao3" style="display:inline">áa&nbsp;, </span><span id="myTao4" style="display:none">&#226;&nbsp;, </span>ái&nbsp;&nbsp;|</p>
+	<p>|&nbsp; b&nbsp;, d&nbsp;, f&nbsp;, g&nbsp;, h&nbsp;, j&nbsp;, k&nbsp;, l&nbsp;, m&nbsp;, n&nbsp;, p&nbsp;, r&nbsp;, s&nbsp;, t&nbsp;, v&nbsp;, w&nbsp;, y&nbsp;, z&nbsp;&nbsp;|&nbsp; ch&nbsp;, &#331;&nbsp;, sh&nbsp;&nbsp;|</p>
+	<p>&#8226; International Phonetic Alphabet (&nbsp;<a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet">IPA</a>&nbsp;)</p>
+	<p>|&nbsp; a&nbsp;, e&nbsp;, i&nbsp;, o&nbsp;, u&nbsp;&nbsp;|&nbsp; <span id="myTao5" style="display:inline">a&#720;&nbsp;, e&#720;&nbsp;, i&#720;&nbsp;, o&#720;&nbsp;, u&#720;&nbsp;&nbsp;|&nbsp; </span>ai&nbsp;, ei&nbsp;, oi&nbsp;, au&nbsp;, ou&nbsp;&nbsp;|&nbsp; Stress&nbsp;: &#712;&nbsp;, <span id="myTao6" style="display:inline">&#712;&nbsp;, </span>&#712;&nbsp;&nbsp;|</p>
+	<p>|&nbsp; (b/v)&nbsp;, (d/&#240;)&nbsp;, f&nbsp;, g&nbsp;, (h/x)&nbsp;, (&#100;&#865;&#658;/&#669;)&nbsp;, k&nbsp;, l&nbsp;, m&nbsp;, n&nbsp;, p&nbsp;, r&nbsp;, s&nbsp;, t&nbsp;, (v/b)&nbsp;, (w/u)&nbsp;, (j/i)&nbsp;, (z/&#952;)&nbsp;&nbsp;|&nbsp; &#116;&#865;&#643;&nbsp;, (&#331;/n)&nbsp;, (&#643;/&#669;)&nbsp;&nbsp;|</p>
+	</div>
+	<a id="bibliography"></a>
+	<h2 style="cursor:pointer" onclick="myBib();">BIBLIOGRAPHY</h2>
+	<p class="bibp" style="display:none">&#8226; CMU : The CMU Pronouncing Dictionary (&nbsp;<a href="https://en.wikipedia.org/wiki/CMU_Pronouncing_Dictionary">Link</a>&nbsp;)</p>
+	<p class="bibp" style="display:none">&#8226; IPA : International Phonetic Alphabet (&nbsp;<a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet">Link</a>&nbsp;)</p>
+	<p class="bibp" style="display:none">&#8226; MOP : Maximal Onset Principle (&nbsp;<a href="https://en.wikipedia.org/wiki/English_phonology">Link</a>&nbsp;)</p>
+	<p>&#8226; <span class="bibs" style="display:none">URL : </span>Phonemic Orthography (&nbsp;<a href="https://en.wikipedia.org/wiki/Phonemic_orthography">Link</a>&nbsp;)</p>
+	<p>&#8226; <span class="bibs" style="display:none">URL : </span>Cambridge Dictionary (&nbsp;<a href="https://dictionary.cambridge.org/dictionary/english/english">Link</a>&nbsp;)</p>
+	<p class="bibp" style="display:none">&#8226; URL : Alphabetic Principle (&nbsp;<a href="https://en.wikipedia.org/wiki/Alphabetic_principle">Link</a>&nbsp;)</p>
+	<p class="bibp" style="display:none">&#8226; Gemini Google's AI Assistant (&nbsp;<a href="https://en.wikipedia.org/wiki/Gemini_(chatbot)">Link</a>&nbsp;)</p>
+	<p class="bibp" style="display:none">&#8226; Universal Auxiliary Language (&nbsp;<a href="https://en.wikipedia.org/wiki/International_auxiliary_language">Link</a>&nbsp;)</p>
+	<p class="bibp" style="display:none">&#8226; Ezequiel Pablo Saudino, Thesis (&nbsp;<a href="https://bibliotecadigital.exactas.uba.ar/collection/seminario/document/seminario_nCOM000721_Saudino">Link</a>&nbsp;)</p>
+	<h2 style="cursor:pointer" onclick="myPro();">PROJECT</h2>
+	<p>&#8226; <a href="https://github.com/armotus/neo-english">HOME</a></p>
+	<h2>LICENSE</h2>
+	<p>&#8226; <a href="abc/abc.html">ABC</a></p>
+	</div>
+	<script src="js/panels.js"></script>
+	<script src="js/dictionary.js"></script>
+	<script src="js/neoenglish.js"></script>
+</body>
+</html>
