@@ -371,12 +371,12 @@ function mySetting() {
 		if ( settingLista[2] == 0 ) { document.getElementById("myStr3").checked = false ; myFunction(); };
 		if ( settingLista[3] == 1 ) { document.getElementById("myFusi").checked = true ; myFunction(); };
 		if ( settingLista[3] == 0 ) { document.getElementById("myFusi").checked = false ; myFunction(); };
-		if ( settingLista[4] == 0 ) { document.getElementById("myTaoa").checked = false ; document.getElementById("myTaob").checked = false ; document.getElementById("myTaoc").checked = false ; myFunTaoA() ; myFunTaoB() ; myFunTaoC() ; };
-		if ( settingLista[4] == 1 ) { document.getElementById("myTaoa").checked = true ; document.getElementById("myTaob").checked = false ; document.getElementById("myTaoc").checked = false ; myFunTaoA() ; myFunTaoB() ; myFunTaoC() ; };
-		if ( settingLista[4] == 2 ) { document.getElementById("myTaoa").checked = true ; document.getElementById("myTaob").checked = false ; document.getElementById("myTaoc").checked = true ; myFunTaoA() ; myFunTaoB() ; myFunTaoC() ; };
-		if ( settingLista[4] == 3 ) { document.getElementById("myTaoa").checked = false ; document.getElementById("myTaob").checked = true ; document.getElementById("myTaoc").checked = false ; myFunTaoA() ; myFunTaoB() ; myFunTaoC() ; };
-		if ( settingLista[4] == 4 ) { document.getElementById("myTaoa").checked = false ; document.getElementById("myTaob").checked = true ; document.getElementById("myTaoc").checked = true ; myFunTaoA() ; myFunTaoB() ; myFunTaoC() ; };
-		if ( settingLista[4] == 5 ) { document.getElementById("myTaoa").checked = false ; document.getElementById("myTaob").checked = false ; document.getElementById("myTaoc").checked = true ; myFunTaoA() ; myFunTaoB() ; myFunTaoC() ; };
+		if ( settingLista[4] == 0 ) { document.getElementById("myTaoa").checked = false ; document.getElementById("myTaob").checked = false ; document.getElementById("myTaoc").checked = false ; myFunTaoC() ; };
+		if ( settingLista[4] == 1 ) { document.getElementById("myTaoa").checked = true ; document.getElementById("myTaob").checked = false ; document.getElementById("myTaoc").checked = false ; myFunTaoA() ; };
+		if ( settingLista[4] == 2 ) { document.getElementById("myTaoa").checked = true ; document.getElementById("myTaob").checked = false ; document.getElementById("myTaoc").checked = true ; myFunTaoA() ; };
+		if ( settingLista[4] == 3 ) { document.getElementById("myTaoa").checked = false ; document.getElementById("myTaob").checked = true ; document.getElementById("myTaoc").checked = false ; myFunTaoB() ; };
+		if ( settingLista[4] == 4 ) { document.getElementById("myTaoa").checked = false ; document.getElementById("myTaob").checked = true ; document.getElementById("myTaoc").checked = true ; myFunTaoB() ; };
+		if ( settingLista[4] == 5 ) { document.getElementById("myTaoa").checked = false ; document.getElementById("myTaob").checked = false ; document.getElementById("myTaoc").checked = true ; myFunTaoC() ; };
 		if ( settingLista[5] == 1 || settingLista[5] == 2 ) { themeValue = settingLista[5] ; myTheme(); };
 		if ( settingLista[6] == 0 ) { d = 1 ; myPro(); };
 		if ( settingLista[6] == 1 ) { d = 0 ; myPro(); };

@@ -33,7 +33,7 @@ The **NEPA** is the Neo-English Orthography and Pronunciation System. It has bee
 
 NE adopts part of the Spanish vowel system, guaranteeing a pronunciation that is **clear and always pure** (with no weak or reduced sounds, **as is the case with the Schwa in English**).
 
-| NEPA Character | IPA | Description |
+| NEPA Character | IPA (&nbsp;<a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet">Link</a>&nbsp;) | Description |
 | :--- | :--- | :--- |
 | **a, e, i, o, u** | a, e, i, o, u | 5 Short Vowels. |
 | **aa, ee, ii, oo, uu** | a&#720;, e&#720;, i&#720;, o&#720;, u&#720; | 5 Long Vowels. |
@@ -71,18 +71,32 @@ NE adopts the **maximum** syllable structure of English (GA/RP) to maintain the 
 | Component | Definitive NE Rule | Justification |
 | :--- | :--- | :--- |
 | **Maximum Structure** | **CCCVCCCC** (Maximum 3 Onset, Maximum 4 Coda). | **Lexical Fidelity:** Allows transcription of complex words like *glimpsed* or *scrambled*. |
-| **Onset Rule** | Onset clusters (**CC** and **CCC**) are **restricted to the 60 valid sequences** of English (e.g.: 'str', 'skr', etc. [See List II.2]). | **Pronounceability:** Ensures that clusters are natural for an English speaker. |
-| **Syllabification** | **Similar Pronunciation Objective (S.P.O.)**. Unique and mandatory. | **Lexical Fidelity:** The syllable division is established word-by-word in the Master Dictionary to achieve **maximum phonetic similarity** to the original English using only the separator (** . **). **Grammatical Simplicity:** Eliminates ambiguity (ambisyllabicity), making syllable division unique and deterministic. |
+| **Onset Rule** | Onset clusters (**CC** and **CCC**) are **restricted to the 60 valid sequences** of English (e.g.: 'str', 'skr', etc. [See Lists II.3]). | **Pronounceability:** Ensures that clusters are natural for an English speaker. |
+| **Syllabification** | **Neo-English Syllabification (NES)**. Unique and mandatory. | **Grammatical Simplicity:** Eliminates ambiguity (ambisyllabicity), making syllable division unique and deterministic. |
 
-### 2. Valid Onsets (IPA):
+### 2. Neo-English Syllabification (NES)
+
+| Phonological Condition (Sequence) | NEO Syllabification Rule | Underlying Rationale | Conceptual Example |
+| :--- | :--- | :--- | :--- |
+| **1. VCV, VCCV, VCCCV and VCCCCV** | Always apply the **Maximum Onset Principle (MOP)**, using the 83 valid onsets (see Lists II.3). | **Universal Simplicity.** The MOP is the primary, quintessential syllabification rule of English. Its universal application ensures that a **syllabification and pronunciation similar to English** is obtained. | **pa.per**, **mi.stake**, **mon.ster**, **ab.stract** |
+| **2. VCCV and VCCCV Exceptions** | Always apply the **Weak Syllable Principle (WSP)** if **THREE** conditions are met: **a)** C1 is **S**; **b)** V1 has **Greater Stress** than V2; and **c)** V1 is a **Short Vowel**. | **Fidelity to Phonological Emphasis.** The WSP breaks the MOP **only** in these subtle cases to guarantee a **syllabification and pronunciation more similar to English**. | **plas.tic**, **as.tro** |
+| **3. Universal Exception (R Rhotic in Rhotic Vowels)** | Once the Rhotic Vowel (Vr) converts to simple **V R**, the syllabification is adjusted phonologically: R is **Onset** if a V follows (**V.RV**); R is **Coda** if a C follows (**VR.C**). | **Rhotic Fidelity.** Ensures the **naturalness of American English** by handling the R according to its intervocalic or pre-consonantal context. | **aste.roid**, **paper.back** |
+
+**IMPORTANT:** NES syllabification is performed after The Normalization Algorithm (5 Steps) (Section IV.1) and the secondary stress is eliminated immediately after syllabification is complete.
+
+### 3. Valid Onsets (IPA Phoneme):
+
+The lists of permitted onsets in the **Maximally Onset Principle (MOP)** are the following:
+
+C1 = { b, &#116;&#865;&#643;, d, &#240;, f, g, h, &#100;&#865;&#658;, k, l, m, n, p, r, s, &#643;, t, &#952;, v, w, j, z, &#658; }
 
 C2 = { bl, fl, gl, kl, pl, sl, &#643;l, &#952;l, br, dr, fr, gr, kr, pr, &#643;r, tr, &#952;r, dw, gw, hw, kw, pw, sw, tw, &#952;w, vw, bj, dj, fj, gj, hj, kj, lj, mj, nj, pj, sj, tj, &#952;j, vj, zj, sf, sk, sm, sn, sp, st, s&#952; }
 
 C3 = { skl, spl, sfr, skr, spr, str, skw, skj, smj, snj, spj, stj }
 
-List II.2 (Bibliography: Wikipedia, MOP).
+Lists II.3 (Bibliography: Wikipedia, MOP).
 
-### 3. Rhythm and Accentuation
+### 4. Rhythm and Accentuation
 
 NE prioritizes **syllabic rhythm** (like Spanish) and applies **orthographic flexibility** to maximize adoption. Total rigor is an option, not an obligation in everyday writing:
 
@@ -106,6 +120,7 @@ The fundamental principle of NE is **invariability**. Words do not inflect, whic
 * **Nouns (No Flexional Plurals):** Nouns are **invariable** (they have no gender, number, or case). Plurality is marked, **only when necessary** for clarity, by a **quantifier** preceding the noun.
     * **Explicit Plurality:** Lexical quantifiers from English are used (e.g.: *thrii, menii, ets.* [three, many, etc.]).
     * **General Indefinite Plurality:** A double-form generic quantifier is used: **plas** [normalized 'plus'] (before vowels and other consonants) or **moor** [normalized 'more'] (before words starting with S, Z, SH, or ZH). This quantifier must be placed **always at the beginning of the noun phrase**, preceding the noun or any adjective that modifies it.
+* **Non-Nouns (No Flexional Plurals):** **Other word types besides nouns** with number inflection must be used in their singular form, eliminating all number morphological inflection. (e.g.: *dhat plas buk* [those books]; *its plas doog* [their dogs]). **Note:** Personal pronouns (such as I, She, Your, Her, They, etc.) and possessive determiners (such as My, Your, Our, etc.) that do not inflect for number in English do not fall into this category and must be used as in original English.
 * **Lexical Ambiguity:** The same lexical root (e.g.: **ran** or **kar** [run or car]) can function as various grammatical classes (noun / verb / adjective). This ambiguity is resolved **exclusively by the strict position in the Syntax**.
 
 ### 2. Syntactic Structure (Strict SVO Order)
@@ -134,9 +149,11 @@ The process uses the phonological transcription of **American English (GA)** (us
 | :--- | :--- | :--- | :--- |
 | **1. Consonants** | The phonological transcription of the 24 consonants of GA is mapped directly to the 24 consonants of NE (Section I). | NE Consonants. | Ensures maximum familiarity in consonants and **Zero Inflection**. |
 | **2. Simple Vowels / Diphthongs** | The phonemes of short vowels /&#652;, &#603;, &#618;, &#594;, &#650;, &#230;/, long vowels /&#105;&#720;, &#596;&#720;, &#117;&#720;/ and diphthongs /a&#618;, e&#618;, o&#618;, a&#650;, o&#650;/ of GA are mapped directly to the short vowels (a, e, i, o, u, a), long vowels (ii, oo, uu) and diphthongs (ai, ei, oi, au, ou) of NE. | NE Vowels / Diphthongs. | Establishes the **vowel simplicity** of Spanish. |
-| **3. Rhotics** and **R-Coloured** | The rhotic phonemes /&#602;, &#605;&#720;/ of GA are mapped to **&#601;** (Schwa) and long vowel **ee** followed by the **simple r** of NE. | **&#601;r, eer** | Confirms the **rhotic** nature of NE and simplifies pronunciation and without **R-Coloured**. |
+| **3. Rhotics** (**R-Coloured**) | The rhotic phonemes /&#602;, &#605;&#720;/ of GA are mapped to **&#601;** (Schwa) and long vowel **ee** followed by the **simple r** of NE. | **&#601;r, eer** | Confirms the **rhotic** nature of NE and simplifies pronunciation (**without R-Coloured**). |
 | **4. Long Vowel Correction /&#593;&#720;/** | The long vowel phoneme /&#593;&#720;/ of GA is mapped to the vowel **o** of NE if, and only if, the **orthographic** vowel in the original word is an **o** (e.g.: h**o**t to **hot**). Otherwise, it is mapped to the long vowel **aa** of NE (Table IV.2). | **o, aa** | **RP Exception Rule:** Recovers the short vowel distinction **o** /&#594;/ of British English using the spelling. |
 | **5. Schwa Correction /&#601;/** | The Schwa phoneme /&#601;/ is disambiguated and mapped to one of the 5 vowels of NE (a, e, i, o, u) using the **orthographic assimilation table** (Table IV.2). | **a, e, i, o, u** | Eliminates the ambiguity of the Schwa, maintaining **visual familiarity** with the original word and its best pronunciation by replacing it with one of the Spanish vowels. |
+
+**IMPORTANT:** The Normalization algorithm (5 Steps) culminates with the execution of the Neo-English Syllabification (NES) process (Section II.2), where the word receives its final syllable division and the secondary stresses are eliminated immediately after.
 
 ### 2. Transformation of Phonemes (/&#601;, &#593;&#720;/)
 
@@ -167,14 +184,14 @@ The following examples illustrate the application of the 5-step algorithm (inclu
 | :--- | :--- | :--- | :--- |
 | **green** | /&#105;&#720;/ (Long Vowel) | **griin** | Consonants (1), Long Vowels (2). |
 | **stop** | /&#593;&#720;/ (RP Correction) | **stop** | /&#593;&#720;/ Correction (4). |
-| **never** | /&#601;/ (Schwa) | **né.ver** | /&#601;/ Correction (5), S.P.O. (Section II). |
+| **never** | /&#601;/ (Schwa) | **né.ver** | /&#601;/ Correction (5), NES (Section II). |
 | **think** | /&#952;/ (Voiceless TH) | **thingk** | Consonants (1): /&#952;/ : **th**. |
 | **that** | /&#240;/ (Voiced TH) | **dhat** | Consonants (1): /&#240;/ : **dh**. |
 | **house** | /a&#650;/ (Diphthong) | **haus** | Base Diphthongs (2). |
 | **bird** | /&#605;&#720;/ (Rhotic) | **beerd** | Rhotics (3)). |
 | **water** | /&#601;/ (Final Schwa) | **wóo.ter** | /&#601;/ Correction (5). |
 | **walk** | /&#596;&#720;/ (Long Vowel) | **wook** | Long Vowels (2). |
-| **letter** | /&#602;/ (Rhotic) | **lé.ter** | Rhotics (3), S.P.O. (Section II). |
+| **letter** | /&#602;/ (Rhotic) | **lé.ter** | Rhotics (3), NES (Section II). |
 | **measure** | /&#658;/ (ZH Phoneme) | **mé.zhar** | Consonants (1), /&#601;/ Correction (5). |
 | **judge** | /&#100;&#865;&#658;/ (J Phoneme) | **jaj** | Consonants (1). |
 
@@ -187,6 +204,8 @@ The sentences demonstrate Zero Inflection (Section III) and Strict Syntax (SVO).
 * **Invariable Verbs (Tenses):**
     > **"Ai ran kwiklii nau."** (I run quickly **now**).
     > **"Ai ran kwiklii yesterdei"** (I ran quickly **yesterday**).
+* **Invariable Verbs (To Be):**
+    > **"Plas beerd bii bluu."** (The birds **are** blue).
 * **Derivation (Adverb/Adjective):**
     > **"Ai sii a sad man. Hii akt sadlii."** (I see a sad man. He acts **sadly**).
 
@@ -203,11 +222,11 @@ The dictionary must provide all necessary information to use any word without am
 | Component | Mandatory Registration Rule | Rigor Justification |
 | :--- | :--- | :--- |
 | **NEPA Root** | The normalized form of the root must be registered in simple NEPA notation (e.g.: *faadher*). | **Lexical Fidelity:** The final normalized form after the Matrix Algorithm (Section IV). |
-| **Syllable Division** | Syllable division must always be marked with a dot (** . **) (e.g.: *fáa.dher*, *né.ver*). | **Lexical Fidelity and Determinism:** The **Similar Pronunciation Objective (S.P.O.)** must be visible to ensure maximum **phonological** similarity and eliminate ambiguities. |
+| **Syllable Division** | Syllable division must always be marked with a dot (** . **) (e.g.: *fáa.dher*, *né.ver*). | **Determinism:** The Neo-English Syllabification (Section II) must be visible to eliminate ambiguities. |
 | **Primary Stress** | The main stress must always be marked, **except for monosyllables** (e.g.: *fáa.dher*, *né.ver*). | **Reference Rigor:** Fixes the position of the stress **only on polysyllabic roots** to eliminate ambiguity. |
 | **Grammatical Class** | The primary grammatical class of the root (Noun, Verb, Adjective) must be registered. | **Ambiguity Resolution:** Aids syntactic disambiguation (Section III). |
 
-**Note:** The following examples are presented in their **rigorous Master Dictionary form** (with mandatory accent and syllabic separation) to illustrate the Normalization Algorithm. In usage writing, the accent and period are optional (See Section II.3).
+**Note:** The following examples are presented in their **rigorous Master Dictionary form** (with mandatory accent and syllabic separation) to illustrate the Normalization Algorithm. In usage writing, the accent and period are optional (See Section II.4).
 
 ---
 
@@ -276,7 +295,9 @@ These phenomena demonstrate NE's tolerance for variations in vowel length, glide
 | Phenomenon | Phonological Phenomenon | Implication for Writing |
 | :--- | :--- | :--- |
 | **Fixed Stress** | Substitution of floating stress with fixed stress (e.g.: penultimate syllable). | **Does not affect writing.** The Dictionary (Section VI) is the source of stress. |
-| **Ambisyllabicity** | The consonant is shared simultaneously by the coda of the preceding syllable and the onset of the following syllable (breaking the S.P.O.). | **Does not affect writing.** NE's syllable division (S.P.O.) is **Unique and mandatory** in the dictionary. |
+| **Ambisyllabicity** | The consonant is shared simultaneously by the coda of the preceding syllable and the onset of the following syllable (breaking the NES). | **Does not affect writing.** NE's syllable division (NES) is **Unique and mandatory** in the dictionary. |
+| **Relocation of Primary Stress** | The primary stress moves to a different syllable than the NE standard (e.g., *television* accented on the last 'o'). | **Does not affect writing.** The Dictionary (Section VI) is the source of accentuation. |
+| **Addition of Secondary Stress** | A secondary stress is added to a syllable without one (e.g., **té**le**vï**sion with secondary stress on the third syllable). | **Does not affect writing.** The Dictionary (Section VI) is the source of accentuation. |
 
 ### 4. Syllabic Variation and Prothesis
 
@@ -334,13 +355,13 @@ NE is positioned as a superior **Universal Auxiliary Language** thanks to its hy
 
 &#8226; CMU : The CMU Pronouncing Dictionary (&nbsp;<a href="https://en.wikipedia.org/wiki/CMU_Pronouncing_Dictionary">Link</a>&nbsp;)
 
-&#8226; IPA : International Phonetic Alphabet (&nbsp;<a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet">Link</a>&nbsp;)
-
 &#8226; MOP : Maximal Onset Principle (&nbsp;<a href="https://en.wikipedia.org/wiki/English_phonology">Link</a>&nbsp;)
+
+&#8226; WSP : Weak Syllable Principle (&nbsp;<a href="https://en.wikipedia.org/wiki/Syllable">Link</a>&nbsp;)
 
 &#8226; URL : Phonemic Orthography (&nbsp;<a href="https://en.wikipedia.org/wiki/Phonemic_orthography">Link</a>&nbsp;)
 
-&#8226; URL : Cambridge Dictionary (&nbsp;<a href="https://dictionary.cambridge.org/dictionary/english/english">Link</a>&nbsp;)
+&#8226; URL : Cambridge Dictionary (&nbsp;<a href="https://dictionary.cambridge.org/dictionary/english/run">Link</a>&nbsp;)
 
 &#8226; URL : Alphabetic Principle (&nbsp;<a href="https://en.wikipedia.org/wiki/Alphabetic_principle">Link</a>&nbsp;)
 
@@ -387,7 +408,3 @@ npm test
 ## LICENSE
 
 [ABC](abc/abc.md)
-
-## VERSION
-
-0.0.2

@@ -87,20 +87,8 @@ function Transcribe(text,version,syllable,stress,fusion,extra) {
 		// WORD THAT IS IN THE DICTIONARY
 		if ( apadict[word] ) {
 			let textsyllable = apadict[word];
-			// QUASI SIMILAR PRONUNCIATION OBJECTIVE ( QUASI S.P.O. )
+			// NEO-ENGLISH SYLLABIFICATION ( RULE 2 )
 			textsyllable = textsyllable.replace(/(:s)(?!£)(?![aeiou])/g,"s.");
-			// textsyllable = textsyllable.replace(/:skl/g,"s.kl");
-			// textsyllable = textsyllable.replace(/:spl/g,"s.pl");
-			// textsyllable = textsyllable.replace(/:sfr/g,"s.fr");
-			// textsyllable = textsyllable.replace(/:skr/g,"s.kr");
-			// textsyllable = textsyllable.replace(/:spr/g,"s.pr");
-			// textsyllable = textsyllable.replace(/:str/g,"s.tr");
-			// textsyllable = textsyllable.replace(/:skw/g,"s.kw");
-			// textsyllable = textsyllable.replace(/:sky/g,"s.ky");
-			// textsyllable = textsyllable.replace(/:smy/g,"s.my");
-			// textsyllable = textsyllable.replace(/:sny/g,"s.ny");
-			// textsyllable = textsyllable.replace(/:spy/g,"s.py");
-			// textsyllable = textsyllable.replace(/:sty/g,"s.ty");
 			// NEO-ENGLISH PHONETIC ALPHABET ( NEPA )
 			if ( version == 1 ) {
 				// VOWELS

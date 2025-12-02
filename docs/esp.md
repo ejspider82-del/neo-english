@@ -33,7 +33,7 @@ El **NEPA** es el Sistema de Ortografía y Pronunciación del Neo-English. Ha si
 
 El NE adopta parte del sistema vocálico del español, que garantiza una pronunciación **clara y siempre pura** (sin sonidos débiles o reducidos, **como pasa con la Schwa en el inglés**).
 
-| Carácter NEPA | IPA | Descripción |
+| Carácter NEPA | IPA (&nbsp;<a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet">Link</a>&nbsp;) | Descripción |
 | :--- | :--- | :--- |
 | **a, e, i, o, u** | a, e, i, o, u | 5 Vocales cortas. |
 | **aa, ee, ii, oo, uu** | a&#720;, e&#720;, i&#720;, o&#720;, u&#720; | 5 Vocales largas. |
@@ -71,18 +71,32 @@ El NE adopta la estructura silábica **máxima** del inglés (GA/RP) para manten
 | Componente | Regla NE Definitiva | Justificación |
 | :--- | :--- | :--- |
 | **Estructura Máxima** | **CCCVCCCC** (Máximo 3 Ataque, Máximo 4 Coda). | **Fidelidad Léxica:** Permite la transcripción de palabras complejas como *glimpsed* o *scrambled*. |
-| **Regla de Ataque** | Los clústeres de Ataque (**CC** y **CCC**) están **restringidos a las 60 secuencias válidas** del inglés (Ej: 'str', 'skr', etc. [Ver Lista II.2]). | **Pronunciabilidad:** Asegura que los clústeres sean naturales para un angloparlante. |
-| **Silabificación** | **Objetivo de Pronunciación Similar (O.P.S.)**. Único y obligatorio. | **Fidelidad Léxica:** La división silábica se establece palabra por palabra en el Diccionario Maestro para lograr la **máxima similitud fonética** con el inglés original usando solo el separador (** . **). **Simplicidad Gramatical:** Elimina la ambigüedad (ambisilabicidad), haciendo que la división silábica sea única y determinista. |
+| **Regla de Ataque** | Los clústeres de Ataque (**CC** y **CCC**) están **restringidos a las 60 secuencias válidas** del inglés (ej.: 'str', 'skr', etc. [Ver Listas II.3]). | **Pronunciabilidad:** Asegura que los clústeres sean naturales para un angloparlante. |
+| **Silabificación** | **Neo-English Silabeo (NES)**. Único y obligatorio. | **Simplicidad Gramatical:** Elimina la ambigüedad (ambisilabicidad), haciendo que la división silábica sea única y determinista. |
 
-### 2. Ataques Válidos (IPA):
+### 2. Neo-English Silabeo (NES)
+
+| Condición Fonológica (Secuencia) | Regla de Silabeo NEO | Lógica Subyacente | Ejemplo Conceptual |
+| :--- | :--- | :--- | :--- |
+| **1. VCV, VCCV, VCCCV y VCCCCV** | Aplicar siempre el **Principio de Ataque Máximo (MOP)**, utilizando los 83 ataques válidos (ver Listas II.3). | **Simplicidad Universal.** El MOP es la regla de silabeo primaria del inglés. Su aplicación universal garantiza que se obtendrá un **silabeo y pronunciación similar al inglés**. | **pa.per**, **mi.stake**, **mon.ster**, **ab.stract** |
+| **2. Excepciones VCCV y VCCCV** | Aplicar siempre el **Principio de Sílaba Débil (WSP)** si se cumplen **TRES** condiciones: **a)** C1 es **S**; **b)** V1 tiene **Estrés Mayor** que V2; y **c)** V1 es una **Vocal Corta**. | **Fidelidad al Énfasis Fonológico.** El WSP rompe el MOP **solo** en estos casos sutiles para garantizar un **silabeo y pronunciación más similar al inglés**. | **plas.tic**, **as.tro** |
+| **3. Excepción Universal (R Rótica en Vocales Róticas)** | Una vez que la Vocal Rótica (Vr) se convierte en **V R** simple, el silabeo se ajusta fonológicamente: la R es **Ataque** si una V le sigue (**V.RV**); la R es **Coda** si una C le sigue (**VR.C**). | **Fidelidad Rótica.** Asegura la **naturalidad del inglés americano** al manejar la R según su contexto intervocálico o preconsonántico. | **aste.roid**, **paper.back** |
+
+**IMPORTANTE:** El silabeo NES se realiza luego de El Algoritmo de Normalización (5 Pasos) (Sección IV.1) y el acento secundario es eliminado inmediatamente después de que el silabeo finalice.
+
+### 3. Ataques Válidos (Fonema IPA):
+
+Las listas de los ataques permitidos en el **Principio de Ataque Máximo (MOP)** son los siguientes:
+
+C1 = { b, &#116;&#865;&#643;, d, &#240;, f, g, h, &#100;&#865;&#658;, k, l, m, n, p, r, s, &#643;, t, &#952;, v, w, j, z, &#658; }
 
 C2 = { bl, fl, gl, kl, pl, sl, &#643;l, &#952;l, br, dr, fr, gr, kr, pr, &#643;r, tr, &#952;r, dw, gw, hw, kw, pw, sw, tw, &#952;w, vw, bj, dj, fj, gj, hj, kj, lj, mj, nj, pj, sj, tj, &#952;j, vj, zj, sf, sk, sm, sn, sp, st, s&#952; }
 
 C3 = { skl, spl, sfr, skr, spr, str, skw, skj, smj, snj, spj, stj }
 
-Lista II.2 (Bibliografía: Wikipedia, MOP).
+Listas II.3 (Bibliografía: Wikipedia, MOP).
 
-### 3. Ritmo y Acentuación
+### 4. Ritmo y Acentuación
 
 El NE prioriza el **ritmo silábico** (como el español) y aplica **flexibilidad ortográfica** para maximizar la adopción. El rigor total es una opción, no una obligación en la escritura de uso:
 
@@ -90,7 +104,7 @@ El NE prioriza el **ritmo silábico** (como el español) y aplica **flexibilidad
 | :--- | :--- | :--- |
 | **Ritmo del Idioma** | **Ritmo Silábico (Español/Chino).** Todas las sílabas reciben similar duración. | **Usabilidad Universal** |
 | **Acento Tónico (Tilde)** | **Opcional/Omitido:** Se puede omitir. Se asume que el usuario deduce el acento por familiaridad con el inglés o por el contexto. | **Máxima Adopción:** Evita la sobrecarga visual para usuarios acostumbrados al inglés. |
-| **Separador Silábico (Punto .)** | **Opcional/Omitido:** Se puede omitir. Se asume la pronunciación más común, dejando la desambiguación al contexto. | **Mínima Fricción:** Solo se recomienda en casos de ambigüedad extrema (ej: n.g vs ng).
+| **Separador Silábico (Punto .)** | **Opcional/Omitido:** Se puede omitir. Se asume la pronunciación más común, dejando la desambiguación al contexto. | **Mínima Fricción:** Solo se recomienda en casos de ambigüedad extrema (ej.: n.g vs ng).
 
 ---
 
@@ -102,11 +116,12 @@ La gramática del Neo-English (NE) se basa en la **Sintaxis SVO** del inglés, p
 
 El principio fundamental del NE es la **invariabilidad**. Las palabras no se flexionan, lo que elimina la necesidad de memorizar tablas de conjugación, plurales o género.
 
-* **Verbos (Cero Conjugación):** Los verbos son **invariables**; no cambian por tiempo, persona o número. El tiempo, el aspecto y el **modo** se indican **EXCLUSIVAMENTE** mediante **adverbios y frases adverbiales** (ej: *hoy, mañana, tal vez, el año pasado*). Si el contexto no especifica el tiempo, se asume el **presente** o la acción habitual.
+* **Verbos (Cero Conjugación):** Los verbos son **invariables**; no cambian por tiempo, persona o número. El tiempo, el aspecto y el **modo** se indican **EXCLUSIVAMENTE** mediante **adverbios y frases adverbiales** (ej.: *hoy, mañana, tal vez, el año pasado*). Si el contexto no especifica el tiempo, se asume el **presente** o la acción habitual.
 * **Sustantivos (Sin Plurales Flexivos):** Los sustantivos son **invariables** (no tienen género, número o caso). El plural se marca, **solo cuando es necesario** para la claridad, mediante un **cuantificador** que precede al sustantivo.
-    * **Pluralidad Explícita:** Se usan cuantificadores léxicos del inglés (ej: *thrii, menii, ets.* [three, many, etc.]).
+    * **Pluralidad Explícita:** Se usan cuantificadores léxicos del inglés (ej.: *thrii, menii, ets.* [three, many, etc.]).
     * **Pluralidad General Indefinida:** Se usa un cuantificador genérico de doble forma: **plas** [el 'plus' normalizado] (antes de vocales y otras consonantes) o **moor** [el 'more' normalizado] (antes de palabras que comienzan con S, Z, SH o ZH). Este cuantificador debe colocarse **siempre al inicio de la frase nominal**, precediendo al sustantivo o a cualquier adjetivo que lo modifique.
-* **Ambigüedad Léxica:** La misma raíz léxica (ej: **ran** o **kar** [run o car]) puede funcionar como varias clases gramaticales (sustantivo / verbo / adjetivo). Esta ambigüedad se resuelve **exclusivamente por la posición estricta en la Sintaxis**.
+* **No-Sustantivos (Sin Plurales Flexivos):** Los **otros tipos de palabras que no sean sustantivos** con flexión de número deben usarse en su forma singular, eliminando toda flexión morfológica de número. (ej.: *dhat plas buk* [those books]; *its plas doog* [their dogs]). **Nota:** Pronombres personales (como I, She, Your, Her, They, etc.) y determinantes posesivos (como My, Your, Our, etc.) que no flexionan por número en inglés no entran en esta categoría y deben usarse como en el inglés original.
+* **Ambigüedad Léxica:** La misma raíz léxica (ej.: **ran** o **kar** [run o car]) puede funcionar como varias clases gramaticales (sustantivo / verbo / adjetivo). Esta ambigüedad se resuelve **exclusivamente por la posición estricta en la Sintaxis**.
 
 ### 2. Estructura Sintáctica (Orden Estricto SVO)
 
@@ -134,9 +149,11 @@ El proceso utiliza la transcripción fonológica del **Inglés Americano (GA)** 
 | :--- | :--- | :--- | :--- |
 | **1. Consonantes** | La transcripción fonológica de las 24 consonantes del GA se mapea directamente a las 24 consonantes del NE (Sección I). | Consonantes NE. | Garantiza la máxima familiaridad en consonantes y la **Inflexión Cero**. |
 | **2. Vocales / Diptongos Simples** | Los fonemas de vocales cortas /&#652;, &#603;, &#618;, &#594;, &#650;, &#230;/, vocales largas /&#105;&#720;, &#596;&#720;, &#117;&#720;/ y diptongos /a&#618;, e&#618;, o&#618;, a&#650;, o&#650;/ del GA se mapean directamente a las vocales cortas (a, e, i, o, u, a), vocales largas (ii, oo, uu) y diptongos (ai, ei, oi, au, ou) del NE. | Vocales / Diptongos NE. | Fija la **simplicidad vocálica** del Español. |
-| **3. Róticas** y **Vocales Róticas** | Los fonemas róticos /&#602;, &#605;&#720;/ del GA se mapean a **&#601;** (Schwa) y vocal larga **ee** seguida de la **r simple** del NE. | **&#601;r, eer** | Confirma la naturaleza **rótica** del NE y simplifica la pronunciación y sin **Vocales Róticas**. |
-| **4. Corrección de la Vocal Larga /&#593;&#720;/** | El fonema de vocal larga /&#593;&#720;/ del GA se mapea a la vocal **o** del NE si, y solo si, la vocal **ortográfica** en la palabra original es una **o** (Ej: h**o**t a **hot**). Caso contrario se mapea a la vocal larga **aa** del NE (Tabla IV.2). | **o, aa** | **Regla RP de Excepción:** Recupera la distinción de la vocal corta **o** /&#594;/ del Inglés Británico usando la ortografía. |
+| **3. Róticas** (**Vocales Róticas**) | Los fonemas róticos /&#602;, &#605;&#720;/ del GA se mapean a **&#601;** (Schwa) y vocal larga **ee** seguida de la **r simple** del NE. | **&#601;r, eer** | Confirma la naturaleza **rótica** del NE y simplifica la pronunciación (**sin Vocales Róticas**). |
+| **4. Corrección de la Vocal Larga /&#593;&#720;/** | El fonema de vocal larga /&#593;&#720;/ del GA se mapea a la vocal **o** del NE si, y solo si, la vocal **ortográfica** en la palabra original es una **o** (ej.: h**o**t a **hot**). Caso contrario se mapea a la vocal larga **aa** del NE (Tabla IV.2). | **o, aa** | **Regla RP de Excepción:** Recupera la distinción de la vocal corta **o** /&#594;/ del Inglés Británico usando la ortografía. |
 | **5. Corrección del Schwa /&#601;/** | El fonema Schwa /&#601;/ se desambigua y se mapea a una de las 5 vocales del NE (a, e, i, o, u) utilizando la **tabla de asimilación ortográfica** (Tabla IV.2). | **a, e, i, o, u** | Elimina la ambigüedad del Schwa, manteniendo la **familiaridad visual** con la palabra original y su mejor pronunciación al reemplazarla por una de las vocales españolas. |
+
+**IMPORTANTE:** El algoritmo de Normalización (5 Pasos) culmina con la ejecución del proceso de Neo-English Silabeo (NES) (Sección II.2), donde la palabra recibe su división silábica final y los acentos secundarios son eliminados inmediatamente después.
 
 ### 2. Transformación de Fonemas (/&#601;, &#593;&#720;/)
 
@@ -167,14 +184,14 @@ Los siguientes ejemplos ilustran la aplicación del algoritmo de 5 pasos (incluy
 | :--- | :--- | :--- | :--- |
 | **green** | /&#105;&#720;/ (Vocal Larga) | **griin** | Consonantes (1), Vocales Largas (2). |
 | **stop** | /&#593;&#720;/ (Corrección RP) | **stop** | Corrección /&#593;&#720;/ (4). |
-| **never** | /&#601;/ (Schwa) | **né.ver** | Corrección /&#601;/ (5), O.P.S. (Sección II). |
+| **never** | /&#601;/ (Schwa) | **né.ver** | Corrección /&#601;/ (5), NES (Sección II). |
 | **think** | /&#952;/ (TH Sorda) | **thingk** | Consonantes (1): /&#952;/ : **th**. |
 | **that** | /&#240;/ (TH Sonora) | **dhat** | Consonantes (1): /&#240;/ : **dh**. |
 | **house** | /a&#650;/ (Diptongo) | **haus** | Diptongos Base (2). |
 | **bird** | /&#605;&#720;/ (Rótica) | **beerd** | Róticas (3). |
 | **water** | /&#601;/ (Schwa Final) | **wóo.ter** | Corrección /&#601;/ (5). |
 | **walk** | /&#596;&#720;/ (Vocal Larga) | **wook** | Vocales Largas (2). |
-| **letter** | /&#602;/ (Rótica) | **lé.ter** | Róticas (3), O.P.S. (Sección II). |
+| **letter** | /&#602;/ (Rótica) | **lé.ter** | Róticas (3), NES (Sección II). |
 | **measure** | /&#658;/ (Fonema ZH) | **mé.zhar** | Consonantes (1), Corrección /&#601;/ (5). |
 | **judge** | /&#100;&#865;&#658;/ (Fonema J) | **jaj** | Consonantes (1) |
 
@@ -187,6 +204,8 @@ Las oraciones demuestran la Inflexión Cero (Sección III) y la Sintaxis Estrict
 * **Verbos Invariables (Tiempos):**
     > **"Ai ran kwiklii nau."** (Yo corro rápido **ahora**).
     > **"Ai ran kwiklii yesterdei"** (Yo corrí rápido **ayer**).
+* **Verbos Invariables (Ser/Estar):**
+    > **"Plas beerd bii bluu."** (Los pájaros **son** azules).
 * **Derivación (Adverbio/Adjetivo):**
     > **"Ai sii a sad man. Hii akt sadlii."** (Yo veo un hombre triste. Él actúa **tristemente**).
 
@@ -202,12 +221,12 @@ El diccionario debe proporcionar toda la información necesaria para usar cualqu
 
 | Componente | Regla de Registro Obligatorio | Justificación del Rigor |
 | :--- | :--- | :--- |
-| **Raíz NEPA** | La forma normalizada de la raíz debe registrarse en la notación NEPA simple (ej: *faadher*). | **Fidelidad Léxica:** La forma normalizada final tras el Algoritmo Matriz (Sección IV). |
-| **División Silábica** | La división silábica debe ser marcada con un punto (** . **) (ej: *faa.dher*, *ne.ver*). | **Fidelidad Léxica y Determinismo:** El **Objetivo de Pronunciación Similar (O.P.S.)** debe estar visible para garantizar la máxima similitud **fonológica** y eliminar ambigüedades. |
-| **Acento Primario** | El acento principal debe ser marcado **siempre, excepto en monosílabos** (ej: *fáa.dher*, *né.ver*). | **Rigor de Referencia:** Fija la posición del golpe de voz **únicamente en raíces polisilábicas** para eliminar ambigüedad. |
+| **Raíz NEPA** | La forma normalizada de la raíz debe registrarse en la notación NEPA simple (ej.: *faadher*). | **Fidelidad Léxica:** La forma normalizada final tras el Algoritmo Matriz (Sección IV). |
+| **División Silábica** | La división silábica debe ser marcada con un punto (** . **) (ej.: *faa.dher*, *ne.ver*). | **Determinismo:** El Neo-English Silabeo (Sección II) debe estar visible para eliminar ambigüedades. |
+| **Acento Primario** | El acento principal debe ser marcado **siempre, excepto en monosílabos** (ej.: *fáa.dher*, *né.ver*). | **Rigor de Referencia:** Fija la posición del golpe de voz **únicamente en raíces polisilábicas** para eliminar ambigüedad. |
 | **Clase Gramatical** | La clase gramatical primaria de la raíz (Sustantivo, Verbo, Adjetivo) debe registrarse. | **Resolución de Ambigüedad:** Ayuda a la desambiguación sintáctica (Sección III). |
 
-**Nota:** Los siguientes ejemplos se presentan en su forma **rigurosa de Diccionario Maestro** (con acento y separación silábica obligatoria) para ilustrar el Algoritmo de Normalización. En la escritura de uso, el acento y el punto son opcionales (Ver Sección II.3).
+**Nota:** Los siguientes ejemplos se presentan en su forma **rigurosa de Diccionario Maestro** (con acento y separación silábica obligatoria) para ilustrar el Algoritmo de Normalización. En la escritura de uso, el acento y el punto son opcionales (Ver Sección II.4).
 
 ---
 
@@ -217,16 +236,16 @@ El Neo-English (NE) opera bajo el principio de que **su léxico es totalmente de
 
 Los mecanismos de composición y derivación solo existen como reglas para **normalizar** formas complejas ya existentes en el inglés.
 
-* **Principio de Fuente Única:** La formación de palabras derivadas (prefijos, sufijos, composición) **siempre se realiza y se basa primero en el inglés original** (Ej.: *un- + happy = unhappy*).
+* **Principio de Fuente Única:** La formación de palabras derivadas (prefijos, sufijos, composición) **siempre se realiza y se basa primero en el inglés original** (ej.: *un- + happy = unhappy*).
 * **Normalización Estricta Obligatoria:** La palabra compuesta o derivada resultante en inglés (**unhappy, simplicity, runner**) debe ser sometida **obligatoriamente** al **Algoritmo de Normalización NEPA (Sección IV)** para obtener la forma final en Neo-English.
-* **Coherencia Funcional:** Los afijos más productivos del inglés (*un-, -nes, -li, -er, -tii*, etc.) mantienen una **función gramatical única y consistente** en el NE (Ej.: *-li* siempre crea adverbios).
+* **Coherencia Funcional:** Los afijos más productivos del inglés (*un-, -nes, -li, -er, -tii*, etc.) mantienen una **función gramatical única y consistente** en el NE (ej.: *-li* siempre crea adverbios).
 
 ### 1. Composición de Palabras (Compounds)
 
 El NE normaliza la yuxtaposición de raíces que existen en inglés, imponiendo reglas de claridad en la representación.
 
-* **Cláusula de Transparencia:** Los compuestos deben formarse exclusivamente por la normalización de la yuxtaposición de dos o más **raíces léxicas independientes ya existentes en inglés** (ej: **haus-gaarden** [house-garden]).
-* **Marcador Visual:** La unión de las raíces en un compuesto puede indicarse mediante un **guion** (ej: **haus-gaarden**), o unirse directamente (ej: **hausgaarden**), siendo el guion el método preferido para la claridad.
+* **Cláusula de Transparencia:** Los compuestos deben formarse exclusivamente por la normalización de la yuxtaposición de dos o más **raíces léxicas independientes ya existentes en inglés** (ej.: **haus-gaarden** [house-garden]).
+* **Marcador Visual:** La unión de las raíces en un compuesto puede indicarse mediante un **guion** (ej.: **haus-gaarden**), o unirse directamente (ej.: **hausgaarden**), siendo el guion el método preferido para la claridad.
 
 ---
 
@@ -275,20 +294,22 @@ Estos fenómenos demuestran la tolerancia del NE a las variaciones en la longitu
 
 | Fenómeno | Fenómeno Fonológico | Implicación en la Escritura |
 | :--- | :--- | :--- |
-| **Acento Fijo** | Sustitución del acento flotante por un acento fijo (ej: penúltima sílaba). | **No afecta la escritura.** El Diccionario (Sección VI) es la fuente de la acentuación. |
-| **Ambisyllabicity** | La consonante es compartida simultáneamente por la coda de la sílaba anterior y el ataque de la sílaba siguiente (rompiendo el O.P.S.). | **No afecta la escritura.** La división silábica del NE (O.P.S.) es única y **obligatoria** en el diccionario. |
+| **Acento Fijo** | Sustitución del acento flotante por un acento fijo (ej.: penúltima sílaba). | **No afecta la escritura.** El Diccionario (Sección VI) es la fuente de la acentuación. |
+| **Ambisyllabicity** | La consonante es compartida simultáneamente por la coda de la sílaba anterior y el ataque de la sílaba siguiente (rompiendo el NES). | **No afecta la escritura.** La división silábica del NE (NES) es única y **obligatoria** en el diccionario. |
+| **Reubicación de Acento Principal** | El acento principal se mueve a una sílaba diferente a la del estándar NE (ej.: *televisión* acentuado en la última 'o'). | **No afecta la escritura.** El Diccionario (Sección VI) es la fuente de la acentuación. |
+| **Adición de Acento Secundario** | Se añade un acento secundario a una sílaba sin él (ej.: **té**le**vï**sion con acento secundario en la tercera sílaba). | **No afecta la escritura.** El Diccionario (Sección VI) es la fuente de la acentuación. |
 
 ### 4. Variación Silábica y Prótesis
 
 | Fenómeno | Fenómeno Fonológico | Implicación en la Escritura |
 | :--- | :--- | :--- |
-| **Prótesis Vocálica (E-Onset)** | La adición de una vocal (usualmente **e**) al inicio de un clúster de Ataque que comienza con **S** (ej: **st, str**). Este proceso **crea una nueva sílaba** (ej: *es.tóp*) y **anula los clústeres CC/CCC** que inician con S en esa pronunciación. | **No afecta la escritura.** La raíz normalizada (ej: **stop**) es **obligatoria** en el diccionario. La vocal extra es una **variación de pronunciación** permitida en el habla. |
+| **Prótesis Vocálica (E-Onset)** | La adición de una vocal (usualmente **e**) al inicio de un clúster de Ataque que comienza con **S** (ej.: **st, str**). Este proceso **crea una nueva sílaba** (ej.: *es.tóp*) y **anula los clústeres CC/CCC** que inician con S en esa pronunciación. | **No afecta la escritura.** La raíz normalizada (ej.: **stop**) es **obligatoria** en el diccionario. La vocal extra es una **variación de pronunciación** permitida en el habla. |
 
 ### 5. Simplificación Morfológica
 
 | Fenómeno | Fenómeno Morfológico | Implicación en la Escritura |
 | :--- | :--- | :--- |
-| **Uso de Apóstrofes** | Reducción de la escritura para indicar la contracción (ej: *it'z* [It's]). | **Se permite en el habla informal.** Sin embargo, el **Diccionario (Sección VI)** solo registra la forma no contraída (ej: *it iz* [it is]). |
+| **Uso de Apóstrofes** | Reducción de la escritura para indicar la contracción (ej.: *it'z* [It's]). | **Se permite en el habla informal.** Sin embargo, el **Diccionario (Sección VI)** solo registra la forma no contraída (ej.: *it iz* [it is]). |
 
 ### 6. Simplificación de Codas Consonánticas (Licencia del Usuario)
 
@@ -311,7 +332,7 @@ La creación del NE se estructura en tres fases técnicas obligatorias:
 
 * **Fase I: Creación del Diccionario Maestro.**
     * **Normalización del Léxico Base:** Aplicación del Algoritmo de la Regla Matriz (Sección IV) a los **3,000 términos más frecuentes del inglés** para crear el vocabulario esencial (el "Core Lexicon").
-    * **Codificación de Reglas:** Creación de un *software* o *script* (ej: Python) que automatice el Algoritmo de 5 Pasos y las correcciones /&#593;&#720;/ y /&#601;/ de **Tabla IV.2**.
+    * **Codificación de Reglas:** Creación de un *software* o *script* (ej.: Python) que automatice el Algoritmo de 5 Pasos y las correcciones /&#593;&#720;/ y /&#601;/ de **Tabla IV.2**.
     * **Registro Riguroso:** Cada entrada debe registrar su Clase Gramatical Primaria, División Silábica y **Acento Obligatorio** (**en el Diccionario Maestro** [Sección VI]).
 * **Fase II: Desarrollo de Herramientas de Adopción.**
     * **Motor de Conversión:** Desarrollo de una aplicación que permita la conversión bidireccional inmediata (Inglés &#8644; Neo-English) para facilitar el aprendizaje inicial.
@@ -334,13 +355,13 @@ El NE se posiciona como una **Lengua Auxiliar Universal** superior gracias a su 
 
 &#8226; CMU : The CMU Pronouncing Dictionary (&nbsp;<a href="https://en.wikipedia.org/wiki/CMU_Pronouncing_Dictionary">Link</a>&nbsp;)
 
-&#8226; IPA : International Phonetic Alphabet (&nbsp;<a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet">Link</a>&nbsp;)
-
 &#8226; MOP : Maximal Onset Principle (&nbsp;<a href="https://en.wikipedia.org/wiki/English_phonology">Link</a>&nbsp;)
+
+&#8226; WSP : Weak Syllable Principle (&nbsp;<a href="https://en.wikipedia.org/wiki/Syllable">Link</a>&nbsp;)
 
 &#8226; URL : Phonemic Orthography (&nbsp;<a href="https://en.wikipedia.org/wiki/Phonemic_orthography">Link</a>&nbsp;)
 
-&#8226; URL : Cambridge Dictionary (&nbsp;<a href="https://dictionary.cambridge.org/dictionary/english/english">Link</a>&nbsp;)
+&#8226; URL : Cambridge Dictionary (&nbsp;<a href="https://dictionary.cambridge.org/dictionary/english/run">Link</a>&nbsp;)
 
 &#8226; URL : Alphabetic Principle (&nbsp;<a href="https://en.wikipedia.org/wiki/Alphabetic_principle">Link</a>&nbsp;)
 
@@ -387,7 +408,3 @@ npm test
 ## LICENSE
 
 [ABC](abc/abc.md)
-
-## VERSIÓN
-
-0.0.2
